@@ -225,7 +225,10 @@ footer {
 }
 
 #footer {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 @media only screen and (min-device-width: 480px){}
