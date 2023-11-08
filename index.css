@@ -35,8 +35,14 @@ li {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 90px;
   margin: 0;
+}
+
+@media (min-width: 360px) {
+  h1 {
+    font-size: 60px;
+  }
 }
 
 h2 {
